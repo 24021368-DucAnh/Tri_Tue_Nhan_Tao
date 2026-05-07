@@ -1,0 +1,26 @@
+# Model file lớn — mỗi người tự tải về
+models/pose_landmarker_full.task
+
+# SVM model — tự train hoặc share riêng
+# models/svm_model.pkl   ← bỏ comment nếu không muốn commit model
+
+# Data
+data/videos/
+data/dataset.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
